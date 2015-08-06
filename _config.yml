@@ -1,0 +1,9 @@
+name: From water to JavaScript
+description: Kristin goes from hydrology to full-stack engineering
+author: Kristin Mayer
+category_dir: /
+url: coldzonemt.github.io
+markdown: rdiscount
+permalink:      pretty
+paginate: 5
+exclude: ['README', 'Gemfile.lock', 'Gemfile']
