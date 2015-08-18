@@ -1,4 +1,67 @@
-body{
+html, body{
+
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(135deg, #daecf7, #50b1f2);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+/*.container{
+ height: 100%;
+ width: 100%;
+ border: 1px;
+ border-style: solid;
+}*/
+
+.header {
+  height: 50px;
+  /*border: 1px;
+  border-style: solid;*/
+  padding: 10px;
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  align-content: stretch;
+  /*justify-content: space-between;*/
+}
+
+.flex-item .side-bar{
+  flex-grow: 1;
+}
+
+.flex-item .content{
+  flex-grow: 4;
+}
+
+.side-bar{
+  width: 15%;
+  /*border: 1px;
+  border-style: solid;*/
+  padding-right: 10px;
+  margin-left: 10px;
+}
+#about-me{
+  padding-top: 10%;
+}
+
+.content {
+  width: 85%;
+  /*border: 1px;
+  border-style: solid;*/
+  padding: 10px;
+}
+
+#blog-heading{
+  font-size: 24px;
+}
+
+
+.footer {
+  clear: both;
+  height: 50px;
+  /*border: 1px;
+  border-style: solid;*/
+  padding: 10px;
 }

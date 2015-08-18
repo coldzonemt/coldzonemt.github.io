@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <meta name= "description" content="{{ site.description }}">
+  <link rel="stylesheet" href="/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic' rel='stylesheet' type='text/css'>
 <title>From H20 to JS</title>
 </head>
   <body>
-<h1>From Water to JavaScript</h1>
-<div class="container"> {{ content }} </div>
+  <div class="container">
+    <div class="header">
+      <h1>From Water to JavaScript</h1>
+    </div>
+    <div class="flex-container">
+
+      <div class="side-bar flex-item">
+        <p id="about-me">About Me</p>
+        <p><a href="https://www.linkedin.com/pub/kristin-mayer/33/166/746">LinkedIn</a></p>
+        <p><a href="https://github.com/coldzonemt">Github</a></p>
+        
+      </div>
+        <div class="content flex-item">
+          <p id="blog-heading">Blog Posts</p>
+          <p>{{ content }}</p> </div>
+  </div>
+    <div class="footer"><!---to be filledin--></div>
+  </div>
+
+
   </body>
 </html>
