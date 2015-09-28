@@ -7,12 +7,10 @@ html, body{
   padding-bottom: 20px;
 }
 
-/*.container{
+.container{
  height: 100%;
  width: 100%;
- border: 1px;
- border-style: solid;
-}*/
+}
 
 .header {
   height: 50px;
@@ -37,19 +35,16 @@ html, body{
 
 .side-bar{
   width: 15%;
-  /*border: 1px;
-  border-style: solid;*/
   padding-right: 10px;
   margin-left: 10px;
 }
 #about-me{
   padding-top: 10%;
+  font-size: 24px; 
 }
 
 .content {
   width: 85%;
-  /*border: 1px;
-  border-style: solid;*/
   padding: 10px;
 }
 
@@ -61,7 +56,5 @@ html, body{
 .footer {
   clear: both;
   height: 50px;
-  /*border: 1px;
-  border-style: solid;*/
   padding: 10px;
 }
